@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style.css">
   <title>Mi Página Personal</title>
 </head>
 
@@ -13,9 +14,7 @@
     <h1> Julián Cipagauta </h1>
   </marquee>
   <br>
-  <center>
-    <img src="assets/foto.jpeg" width="150" height="150" alt="Julián Cipagauta">
-  </center>
+  <img src="assets/foto.jpeg" width="150" height="150" alt="Julián Cipagauta">
   <br>
   <h2>Biografía</h2>
   <p>
@@ -40,7 +39,7 @@
     <li>Hacer Senderismo</li>
   </ol>
   <h3>Canciones</h3>
-  <table border="1">
+  <table>
     <thead>
       <tr>
         <th>Genero</th>
@@ -98,6 +97,31 @@
     <source src="assets/Lilo  Stitch - Trailer.mp4" type="video/mp4">
     Tu explorador <strong>no soporta elementos de Video</strong>
   </video>
+
+  <form action="#">
+    <fieldset>
+      <legend>Para mayor información, contáctenos:</legend>
+      <div class="form-group">
+        <label for="name">Nombre:</label>
+        <input type="text" name="name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" name='email'>
+      </div>
+      <div class="form-group">
+        <label for="subject">Asunto:</label>
+        <input type="text" name='subject'>
+      </div>
+      <div class="form-group">
+        <label for="message">Mensaje:</label>
+        <textarea name="message" cols="30" rows="10"></textarea>
+      </div>
+      <div class="form-group">
+        <input type="submit" value='Enviar'>
+      </div>
+    </fieldset>
+  </form>
 </body>
 
 </html>
